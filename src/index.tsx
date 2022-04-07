@@ -3,12 +3,13 @@ import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
+// import App from './App';
+import ProjectPage from './projects/ProjectsPage';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ProjectPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
